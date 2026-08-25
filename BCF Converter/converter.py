@@ -1,3 +1,18 @@
+"""
+BCF Converter
+
+BCF loading, spectral data extraction and HDF5 conversion.
+
+Provides functions for loading Bruker BCF files using HyperSpy,
+extracting spectral cubes and metadata, generating preview images,
+and saving converted data to HDF5 format.
+
+Copyright (c) 2026 Nicolas Gros
+
+Licensed under the ? License.
+See the LICENSE file in the project root for details.
+"""
+
 import h5py
 import hyperspy.api as hs
 
