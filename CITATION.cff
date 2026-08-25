@@ -1,0 +1,12 @@
+```yaml id="cff01"
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Gros"
+    given-names: "Nicolas"
+    orcid: "https://orcid.org/0009-0005-7084-3796"
+title: "BCF Converter"
+version: "1.0.1"
+doi: "none"
+date-released: 2026-08-25
+url: "https://github.com/NicoGros/BCF-Converter"
