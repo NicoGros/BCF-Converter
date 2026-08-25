@@ -29,3 +29,73 @@ Extract the downloaded archive and run:
 
 ```text
 BCF Converter.exe
+
+### Running from source
+
+BCF Converter requires Python.
+
+Create a virtual environment:
+
+```text
+python -m venv .venv
+
+Activate it and install the dependencies:
+
+```text
+pip install -r requirements.txt
+
+Run the application:
+
+```text
+python main.py
+Usage
+Click Open BCF.
+Select a .bcf file.
+The spectral cube is loaded and a preview is displayed.
+Click Convert to HDF5.
+Select the output location.
+
+The resulting HDF5 file contains the spectral data in the data dataset together with basic dimensional and spectral-axis metadata.
+
+## Output format
+
+The HDF5 file contains:
+
+
+```text
+data
+
+with attributes including:
+
+
+```text
+width
+height
+channels
+energy_offset
+energy_scale
+energy_units
+
+where available in the source BCF file.
+
+The spectral data are stored using gzip compression.
+
+## Citation
+
+If you use BCF Converter in research resulting in a publication, please cite the software and, where applicable, the associated scientific publication describing its development or use.
+
+See CITATION.cff for the recommended citation.
+
+## Contributing
+
+Bug reports, suggestions, and contributions are welcome.
+
+Please see CONTRIBUTING.md for development and contribution guidelines.
+
+## License
+
+See the LICENSE file for the terms under which BCF Converter is distributed. There is no license at the moment.
+
+## Acknowledgements
+
+BCF Converter was developed during a PhD placement at the Victoria and Albert Museum, in the context of my PhD thesis at the University of Namur.
