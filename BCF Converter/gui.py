@@ -1,3 +1,18 @@
+"""
+BCF Converter
+
+Graphical user interface for BCF loading and HDF5 conversion.
+
+Provides the main application window and background worker classes
+used to load BCF files, generate spectral previews, and save
+converted data without blocking the user interface.
+
+Copyright (c) 2026 Nicolas Gros
+
+Licensed under the ? License.
+See the LICENSE file in the project root for details.
+"""
+
 from pathlib import Path
 
 import numpy as np
