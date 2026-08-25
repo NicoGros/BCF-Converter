@@ -2,6 +2,14 @@
 BCF Converter
 
 Application entry point.
+
+Initializes the Qt application, sets application metadata,
+and launches the main application window.
+
+Copyright (c) 2026 Nicolas Gros
+
+Licensed under the ? License.
+See the LICENSE file in the project root for details.
 """
 
 from __future__ import annotations
