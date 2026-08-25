@@ -29,6 +29,7 @@ Extract the downloaded archive and run:
 
 ```text
 BCF Converter.exe
+```
 
 ### Running from source
 
@@ -38,11 +39,13 @@ Create a virtual environment:
 
 ```text
 python -m venv .venv
+```
 
 Activate it and install the dependencies:
 
 ```text
 pip install -r requirements.txt
+```
 
 Run the application:
 
@@ -54,6 +57,7 @@ Select a .bcf file.
 The spectral cube is loaded and a preview is displayed.
 Click Convert to HDF5.
 Select the output location.
+```
 
 The resulting HDF5 file contains the spectral data in the data dataset together with basic dimensional and spectral-axis metadata.
 
@@ -64,6 +68,7 @@ The HDF5 file contains:
 
 ```text
 data
+```
 
 with attributes including:
 
@@ -75,6 +80,7 @@ channels
 energy_offset
 energy_scale
 energy_units
+```
 
 where available in the source BCF file.
 
