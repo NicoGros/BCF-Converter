@@ -9,7 +9,7 @@ and saving converted data to HDF5 format.
 
 Copyright (c) 2026 Nicolas Gros
 
-Licensed under the ? License.
+Licensed under the GPL-3.0 license.
 See the LICENSE file in the project root for details.
 """
 
